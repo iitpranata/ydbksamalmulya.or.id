@@ -1,0 +1,710 @@
+/**
+ * Copyright 2015 Google Inc. All Rights Reserved.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+body {
+  margin: 0;
+}
+
+/* Disable ugly boxes around images in IE10 */
+a img{
+  border: 0px;
+}
+
+::-moz-selection {
+  background-color: #6ab344;
+  color: #fff;
+}
+
+::selection {
+  background-color: #6ab344;
+  color: #fff;
+}
+
+.ydbks-search-box .mdl-textfield__input {
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.ydbks-header .mdl-menu__container {
+  z-index: 50;
+  margin: 0 !important;
+}
+
+
+.mdl-textfield--expandable {
+  width: auto;
+}
+
+.ydbks-fab {
+  position: absolute;
+  right: 20%;
+  bottom: -26px;
+  z-index: 3;
+  background: #64ffda !important;
+  color: black !important;
+}
+
+.ydbks-mobile-title {
+  display: none !important;
+}
+
+
+.ydbks-logo-image {
+  height: 28px;
+  width: 140px;
+}
+
+
+.ydbks-header {
+  overflow: visible;
+  background-color: white;
+}
+
+  .ydbks-header .material-icons {
+    color: #767777 !important;
+  }
+
+  .ydbks-header .mdl-layout__drawer-button {
+    background: transparent;
+    color: #767777;
+  }
+
+  .ydbks-header .mdl-navigation__link {
+    color: #757575;
+    font-weight: 700;
+    font-size: 14px;
+  }
+
+  .ydbks-navigation-container {
+    /* Simple hack to make the overflow happen to the left instead... */
+    direction: rtl;
+    -webkit-order: 1;
+        -ms-flex-order: 1;
+            order: 1;
+    width: 500px;
+    transition: opacity 0.2s cubic-bezier(0.4, 0, 0.2, 1),
+        width 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .ydbks-navigation {
+    /* ... and now make sure the content is actually LTR */
+    direction: ltr;
+    -webkit-justify-content: flex-end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    width: 800px;
+  }
+
+  .ydbks-search-box.is-focused + .ydbks-navigation-container {
+    opacity: 0;
+    width: 100px;
+  }
+
+
+  .ydbks-navigation .mdl-navigation__link {
+    display: inline-block;
+    height: 60px;
+    line-height: 68px;
+    background-color: transparent !important;
+    border-bottom: 4px solid transparent;
+  }
+
+    .ydbks-navigation .mdl-navigation__link:hover {
+      border-bottom: 4px solid #2196F3;
+    }
+
+  .ydbks-search-box {
+    -webkit-order: 2;
+        -ms-flex-order: 2;
+            order: 2;
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+
+  .ydbks-more-button {
+    -webkit-order: 3;
+        -ms-flex-order: 3;
+            order: 3;
+  }
+
+
+.ydbks-drawer {
+  border-right: none;
+}
+
+  .ydbks-drawer-separator {
+    height: 1px;
+    background-color: #dcdcdc;
+    margin: 8px 0;
+  }
+
+  .ydbks-drawer .mdl-navigation__link.mdl-navigation__link {
+    font-size: 14px;
+    color: #757575;
+  }
+
+  .ydbks-drawer span.mdl-navigation__link.mdl-navigation__link {
+    color: #8bc34a;
+  }
+
+  .ydbks-drawer .mdl-layout-title {
+    position: relative;
+    background: #6ab344;
+    height: 160px;
+  }
+
+    .ydbks-drawer .ydbks-logo-image {
+      position: absolute;
+      bottom: 16px;
+    }
+
+.ydbks-be-together-section {
+  position: relative;
+  height: 490px;
+  width: auto;
+  background-color: #f3f3f3;
+}
+
+.ydbks-halaman {
+  position: relative;
+  width: auto;
+  height: auto;
+  background-color: #f3f3f3;
+}
+
+.ydbks-halaman .mdl-cell--9-col {
+  margin-right: 0px;
+}
+
+.ydbks-halaman .mdl-cell--3-col {
+  margin-left: 0px;
+}
+
+.ydbks-halaman .mdl-cell--3-col .mdl-card {
+  padding: 8px 16px 8px 16px;
+}
+
+.ydbks-halaman .mdl-cell--3-col h4{
+  margin-bottom: 0px;
+  margin-top: 16px;
+}
+
+.ydbks-list-icon {
+  margin-top: 0px;
+}
+
+.ydbks-list-icon .mdl-list__item {
+  padding-left: 0px;
+  padding-bottom: 0px;
+  padding-top: 0px;
+  padding-right: 0px;
+}
+
+.ydbks-list-icon .mdl-list__item .material-icons {
+  margin-right: 10px;
+}
+
+.ydbks-list-icon .mdl-list__item .ydbks-link {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.ydbks-photo-artikel {
+  position: relative;
+  height: 300px;
+  background-color: #f3f3f3;
+}
+
+.logo-font {
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  line-height: 1;
+  color: #767777;
+  font-weight: 500;
+}
+
+.ydbks-slogan {
+  font-size: 60px;
+  padding-top: 160px;
+}
+
+.ydbks-sub-slogan {
+  font-size: 21px;
+  padding-top: 24px;
+}
+
+.ydbks-create-character {
+  font-size: 21px;
+  padding-top: 400px;
+}
+
+  .ydbks-create-character a {
+    text-decoration: none;
+    color: #767777;
+    font-weight: 300;
+  }
+
+.ydbks-screen-section {
+  position: relative;
+  padding-top: 60px;
+  padding-bottom: 80px;
+}
+
+.ydbks-screens {
+  text-align: right;
+  width: 100%;
+  white-space: nowrap;
+  overflow-x: auto;
+}
+
+.ydbks-screen {
+  text-align: center;
+}
+
+.ydbks-screen .ydbks-link {
+  margin-top: 16px;
+  display: block;
+  z-index: 2;
+}
+
+.ydbks-image-link {
+  text-decoration: none;
+}
+
+.ydbks-wear {
+  display: inline-block;
+  width: 160px;
+  margin-right: 32px;
+}
+
+  .ydbks-wear .ydbks-screen-image {
+    width: 40%;
+    z-index: 1;
+  }
+
+
+.ydbks-phone {
+  display: inline-block;
+  width: 64px;
+  margin-right: 48px;
+}
+
+  .ydbks-phone .ydbks-screen-image {
+    width: 100%;
+    z-index: 1;
+  }
+
+
+.ydbks-tablet {
+  display: inline-block;
+  width: 110px;
+  margin-right: 64px;
+}
+
+  .ydbks-tablet .ydbks-screen-image {
+    width: 100%;
+    z-index: 1;
+  }
+
+  .ydbks-tablet .ydbks-link {
+    display: block;
+    z-index: 2;
+  }
+
+
+.ydbks-tv {
+  display: inline-block;
+  width: 300px;
+  margin-right: 80px;
+}
+
+  .ydbks-tv .ydbks-screen-image {
+    width: 100%;
+    z-index: 1;
+  }
+
+
+.ydbks-auto {
+  display: inline-block;
+  width: 300px;
+  overflow: hidden;
+}
+
+  .ydbks-auto .ydbks-screen-image {
+    display: block;
+    height: 300px;
+    z-index: 1;
+  }
+
+
+.ydbks-wear-section {
+  position: relative;
+  background: url('images/wear.png') center top no-repeat;
+  background-size: cover;
+  height: 800px;
+}
+
+.ydbks-wear-band {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background-color: #37474f;
+}
+
+.ydbks-wear-band-text {
+  max-width: 800px;
+  margin-left: 25%;
+  padding: 24px;
+  text-align: left;
+  color: white;
+}
+
+  .ydbks-wear-band-text p {
+    padding-top: 8px;
+  }
+
+.ydbks-link {
+  text-decoration: none;
+  color: #2196F3 !important;
+}
+
+  .ydbks-link:hover {
+    color: #2196F3 !important;
+  }
+
+  .ydbks-link .material-icons {
+    position: relative;
+    top: -1px;
+    vertical-align: middle;
+  }
+
+.ydbks-alt-link {
+  text-decoration: none;
+  color: #64ffda !important;
+  font-size: 16px;
+}
+
+  .ydbks-alt-link:hover {
+    color: #00bfa5 !important;
+  }
+
+  .ydbks-alt-link .material-icons {
+    position: relative;
+    top: 6px;
+  }
+
+.ydbks-customized-section {
+  text-align: center;
+}
+
+.ydbks-customized-section-text {
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 80px 16px 0 16px;
+}
+
+  .ydbks-customized-section-text p {
+    padding-top: 16px;
+  }
+
+.ydbks-customized-section-image {
+  background: url('images/devices.jpg') center top no-repeat;
+  background-size: cover;
+  height: 400px;
+}
+
+.ydbks-more-section {
+  padding: 80px 0;
+  max-width: 1044px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+  .ydbks-more-section .ydbks-section-title {
+    margin-left: 12px;
+    padding-bottom: 24px;
+  }
+
+.ydbks-card-container {
+}
+
+  .ydbks-card-container .mdl-card__media {
+    overflow: hidden;
+    background: transparent;
+  }
+
+    .ydbks-card-container .mdl-card__media img {
+      width: 100%;
+    }
+
+  .ydbks-card-container .mdl-card__title {
+    background: transparent;
+    height: auto;
+  }
+
+  .ydbks-card-container .mdl-card__title-text {
+    color: black;
+    height: auto;
+  }
+
+  .ydbks-card-container .mdl-card__supporting-text {
+    height: auto;
+    color: black;
+    padding-bottom: 56px;
+  }
+
+  .ydbks-card-container .mdl-card__actions {
+    position: absolute;
+    bottom: 0;
+  }
+
+  .ydbks-card-container .mdl-card__actions a {
+    border-top: none;
+    font-size: 16px;
+  }
+
+.ydbks-footer {
+  background-color: #fafafa;
+  position: relative;
+}
+
+  .ydbks-footer a:hover {
+    color: #8bc34a;
+  }
+
+  .ydbks-footer .mdl-mega-footer--top-section::after {
+    border-bottom: none;
+  }
+
+  .ydbks-footer .mdl-mega-footer--middle-section::after {
+    border-bottom: none;
+  }
+
+  .ydbks-footer .mdl-mega-footer--bottom-section {
+    position: relative;
+  }
+
+  .ydbks-footer .mdl-mega-footer--bottom-section a {
+    margin-right: 2em;
+  }
+
+  .ydbks-footer .mdl-mega-footer--right-section a .material-icons {
+    position: relative;
+    top: 6px;
+  }
+
+
+.ydbks-link-menu:hover {
+  cursor: pointer;
+}
+
+/* Judul Artikel */
+.artikel-ribbon {
+  width: 100%;
+  height: 40vh;
+  background-color: #2196F3;
+  -webkit-flex-shrink: 0;
+      -ms-flex-negative: 0;
+          flex-shrink: 0;
+}
+
+.artikel-main {
+  margin-top: -35vh;
+  -webkit-flex-shrink: 0;
+      -ms-flex-negative: 0;
+          flex-shrink: 0;
+}
+
+.artikel-header .mdl-layout__header-row {
+  padding-left: 40px;
+}
+
+.artikel-container {
+  max-width: 1600px;
+  width: calc(100% - 16px);
+  margin: 0 auto;
+}
+
+.artikel-content {
+  border-radius: 2px;
+  padding: 80px 56px;
+  margin-bottom: 80px;
+}
+
+.artikel-layout.is-small-screen .artikel-content {
+  padding: 40px 28px;
+}
+
+.artikel-content h3 {
+  margin-top: 48px;
+}
+
+.artikel-footer {
+  padding-left: 40px;
+}
+
+.artikel-footer .mdl-mini-footer--link-list a {
+  font-size: 13px;
+}
+
+.artikel-card-image.mdl-card {
+  height: 325px;
+  margin-bottom: 20px;
+}
+
+.artikel-card-image > .mdl-card__actions {
+  height: 52px;
+  padding: 16px;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.artikel-card-image__filename {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+/* Kegiatan */
+
+.kegiatan-card-event.mdl-card {
+  width: 256px;
+  height: 256px;
+  background: #3E4EB8;
+}
+.kegiatan-card-event > .mdl-card__actions {
+  border-color: rgba(255, 255, 255, 0.2);
+}
+.kegiatan-card-event > .mdl-card__title {
+  align-items: flex-start;
+}
+.kegiatan-card-event > .mdl-card__title > h4 {
+  margin-top: 0;
+}
+.kegiatan-card-event > .mdl-card__actions {
+  display: flex;
+  box-sizing:border-box;
+  align-items: center;
+}
+.kegiatan-card-event > .mdl-card__actions > .material-icons {
+  padding-right: 10px;
+}
+.kegiatan-card-event > .mdl-card__title,
+.kegiatan-card-event > .mdl-card__actions,
+.kegiatan-card-event > .mdl-card__actions > .mdl-button {
+  color: #fff;
+}
+
+
+/**** Mobile layout ****/
+@media (max-width: 900px) {
+  .ydbks-navigation-container {
+    display: none;
+  }
+
+  .ydbks-title {
+    display: none !important;
+  }
+
+  .ydbks-mobile-title {
+    display: block !important;
+    position: absolute;
+    left: calc(50% - 70px);
+    top: 12px;
+    transition: opacity 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  /* WebViews in iOS 9 break the "~" operator, and WebViews in OS X 10.10 break
+     consecutive "+" operators in some cases. Therefore, we need to use both
+     here to cover all the bases. */
+  .ydbks.ydbks-search-box.is-focused ~ .ydbks-mobile-title,
+  .ydbks-search-box.is-focused + .ydbks-navigation-container + .ydbks-mobile-title {
+    opacity: 0;
+  }
+
+  .ydbks-more-button {
+    display: none;
+  }
+
+  .ydbks-search-box.is-focused {
+    width: calc(100% - 48px);
+  }
+
+  .ydbks-search-box .mdl-textfield__expandable-holder {
+    width: 100%;
+  }
+
+  .ydbks-be-together-section {
+    height: 350px;
+  }
+
+  .ydbks-halaman {
+    position: relative;
+    width: auto;
+    height: auto;
+    background-color: #f3f3f3;
+  }
+
+  .ydbks-halaman .mdl-cell--9-col {
+    margin-right: 8px;
+  }
+  
+  .ydbks-halaman .mdl-cell--3-col {
+    margin-left: 8px;
+  }
+
+  .ydbks-halaman .mdl-cell--3-col .mdl-card {
+    padding: 8px 16px 8px 16px;
+  }
+
+  .artikel-card-image.mdl-card {
+    height: 280px;
+    margin-bottom: 20px;
+  }
+
+  .ydbks-slogan {
+    font-size: 26px;
+    margin: 0 16px;
+    padding-top: 24px;
+  }
+
+  .ydbks-sub-slogan {
+    font-size: 16px;
+    margin: 0 16px;
+    padding-top: 8px;
+  }
+
+  .ydbks-create-character {
+    padding-top: 200px;
+    font-size: 16px;
+  }
+
+  .ydbks-create-character img {
+    height: 12px;
+  }
+
+  .ydbks-fab {
+    display: none;
+  }
+
+  .ydbks-wear-band-text {
+    margin-left: 0;
+    padding: 16px;
+  }
+
+  .ydbks-footer .mdl-mega-footer--bottom-section {
+    display: none;
+  }
+}
