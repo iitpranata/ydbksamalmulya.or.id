@@ -10,3 +10,9 @@ Yayasan Dharma Bhakti Sosial Provinsi Bengkulu adalah suatu pelayanan terhadap p
 * Kegiatan
 * Artikel
 * Hubungi
+
+# Team Kito Developers
+[TEAM KITO](http://teamkito.com/)
+[FACEBOOK](https://www.facebook.com/teamkito/)
+[TWITTER](https://twitter.com/teamkitodev)
+[INSTAGRAM](https://www.instagram.com/teamkito/)
