@@ -8,7 +8,7 @@
             items:1,
             loop:true,
             autoplay:true,
-            autoplayTimeout:5000,
+            autoplayTimeout:4000,
             autoplayHoverPause:true,
     });
 </script>

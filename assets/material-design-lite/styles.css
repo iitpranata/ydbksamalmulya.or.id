@@ -24,12 +24,12 @@ a img{
 }
 
 ::-moz-selection {
-  background-color: #6ab344;
+  background-color: #2196F3;
   color: #fff;
 }
 
 ::selection {
-  background-color: #6ab344;
+  background-color: #2196F3;
   color: #fff;
 }
 
@@ -156,12 +156,12 @@ a img{
   }
 
   .ydbks-drawer span.mdl-navigation__link.mdl-navigation__link {
-    color: #8bc34a;
+    color: #2196F3;
   }
 
   .ydbks-drawer .mdl-layout-title {
     position: relative;
-    background: #6ab344;
+    background: #2196F3;
     height: 160px;
   }
 
@@ -172,7 +172,7 @@ a img{
 
 .ydbks-be-together-section {
   position: relative;
-  height: 490px;
+  height: 575px;
   width: auto;
   background-color: #f3f3f3;
 }
@@ -413,7 +413,7 @@ a img{
   max-width: 500px;
   margin-left: auto;
   margin-right: auto;
-  padding: 80px 16px 0 16px;
+  padding: 50px 16px 0 16px;
 }
 
   .ydbks-customized-section-text p {
@@ -426,17 +426,17 @@ a img{
   height: 400px;
 }
 
-.ydbks-more-section {
-  padding: 80px 0;
+.ydbks-artikel-kami {
+  padding: 60px 0;
   max-width: 1044px;
   margin-left: auto;
   margin-right: auto;
 }
 
-  .ydbks-more-section .ydbks-section-title {
-    margin-left: 12px;
-    padding-bottom: 24px;
-  }
+.ydbks-artikel-kami h3 {
+  text-align: center;
+  margin-bottom: 0px;
+}
 
 .ydbks-card-container {
 }
@@ -482,7 +482,7 @@ a img{
 }
 
   .ydbks-footer a:hover {
-    color: #8bc34a;
+    color: #2196F3;
   }
 
   .ydbks-footer .mdl-mega-footer--top-section::after {
@@ -607,6 +607,64 @@ a img{
   color: #fff;
 }
 
+.ydbks-perkenalan {
+  font-family: "Roboto","Helvetica","Arial",sans-serif;
+  padding: 10px 30px 10px 150px;
+  text-align: left;
+  line-height: 2;
+}
+
+.ydbks-kami-adalah-foto {
+  height: 410px;
+}
+
+.ydbks-perkenalan h3 {  
+  margin-bottom: 10px;
+}
+
+.ydbks-kegiatan {
+  font-family: "Roboto","Helvetica","Arial",sans-serif;
+  padding: 10px 150px 10px 30px;
+  text-align: right;
+  line-height: 2;
+}
+
+.ydbks-kegiatan h3 {  
+  margin-bottom: 10px;
+}
+
+.ydbks-kegiatan .kegiatan-card-event.mdl-card {
+  margin-top: 15px;
+  margin-left: 210px;
+  width: 256px;
+  height: 225px;
+  background: #2196F3;
+}
+
+.ydbks-data { 
+  height: auto;
+  background-color: rgb(243,243,243);
+  text-align: center;
+}
+
+.ydbks-data .material-icons {
+  font-size: 80px;
+}
+
+.ydbks-data h4 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.ydbks-data .mdl-grid {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.ydbks-data  .mdl-cell--4-col {
+  padding-right: 10px;
+  padding-left: 10px;
+}
 
 /**** Mobile layout ****/
 @media (max-width: 900px) {
@@ -647,7 +705,7 @@ a img{
   }
 
   .ydbks-be-together-section {
-    height: 350px;
+    height: 400px;
   }
 
   .ydbks-halaman {
@@ -672,6 +730,36 @@ a img{
   .artikel-card-image.mdl-card {
     height: 280px;
     margin-bottom: 20px;
+  }
+
+  .ydbks-perkenalan {
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+    padding: 10px 10px 10px 10px;
+    text-align: left;
+    line-height: 2;
+  }
+
+  .ydbks-perkenalan h3 {  
+    margin-bottom: 10px;
+  }
+
+  .ydbks-kegiatan {
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+    padding: 10px 10px 10px 10px;
+    text-align: left;
+    line-height: 2;
+  }
+
+  .ydbks-kegiatan h3 {  
+    margin-bottom: 10px;
+  }
+
+  .ydbks-kegiatan .kegiatan-card-event.mdl-card {
+    margin-top: 20px;
+    margin-left: 0px;
+    width: 256px;
+    height: 256px;
+    background: #2196F3;
   }
 
   .ydbks-slogan {

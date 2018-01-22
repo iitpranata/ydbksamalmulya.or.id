@@ -34,11 +34,11 @@
    <img class="ydbks-logo-image" src="<?php echo base_url() ?>assets/material-design-lite/images/ydbks-logo-white.png">
    </span>
    <nav class="mdl-navigation">
-      <a class="mdl-navigation__link" href="index.html">BERANDA</a>
-      <a class="mdl-navigation__link" href="tentang.html">TENTANG</a>
-      <a class="mdl-navigation__link" href="donasi.html">DONASI</a>
-      <a class="mdl-navigation__link" href="kegiatan.html">KEGIATAN</a>
-      <a class="mdl-navigation__link" href="artikel.html">ARTIKEL</a>
-      <a class="mdl-navigation__link" href="hubungi.html">HUBUNGI</a>
+      <a class="mdl-navigation__link" href="<?php echo base_url() ?>">BERANDA</a>
+      <a class="mdl-navigation__link" href="<?php echo base_url() ?>index.php/pengujung/tentang">TENTANG</a>
+      <a class="mdl-navigation__link" href="<?php echo base_url() ?>index.php/pengujung/donasi">DONASI</a>
+      <a class="mdl-navigation__link" href="<?php echo base_url() ?>index.php/pengujung/kegiatan">KEGIATAN</a>
+      <a class="mdl-navigation__link" href="<?php echo base_url() ?>index.php/pengujung/artikel">ARTIKEL</a>
+      <a class="mdl-navigation__link" href="<?php echo base_url() ?>index.php/pengujung/hubungi">HUBUNGI</a>
    </nav>
 </div>

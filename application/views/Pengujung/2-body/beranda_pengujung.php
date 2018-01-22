@@ -10,35 +10,85 @@
    <div class="ydbks-be-together-section mdl-typography--text-center item" style="background: url('<?php echo base_url() ?>assets/material-design-lite/images/slide01.jpg') center 30% no-repeat; background-size: cover;">
    </div>
 </div>
-<div class="ydbks-screen-section mdl-typography--text-center">
+<div class="mdl-typography--text-center">
    <a name="screens"></a>
-   <div class="mdl-typography--display-1-color-contrast">Powering screens of all sizes</div>
    <div class="mdl-grid">
       <div class="mdl-cell mdl-cell--6-col">
-         <div class="mdl-card__supporting-text">
-            Yayasan Dharma Bhakti Sosial Provinsi Bengkulu adalah
+         <div class="ydbks-perkenalan">
+         <h3>Kami adalah?</h3>
+            Yayasan Dharma Bhakti Sosial Provinsi Bengkulu yang
             memberikan pelayanan
-            terhadap penyandang cacat berbagai keterampilan, bimbingan sosial dan
+            terhadap penyandang disabilitas berbagai keterampilan, bimbingan sosial dan
             kesiapan kemandirian anak melalui pendidikan baik formal maupun non formal
             agar dapat memenuhi kehidupan, layaknya sebagai masyarakat umum.
          </div>
       </div>
-      <div class="mdl-cell mdl-cell--6-col">4</div>
+      <div class="ydbks-kami-adalah-foto mdl-cell mdl-cell--6-col" style="background: url('<?php echo base_url() ?>assets/material-design-lite/images/ydbks-foto-bersama.jpg') center 30% no-repeat; background-size: cover;"></div>
    </div>
 </div>
-<div class="ydbks-wear-section">
-   <div class="ydbks-wear-band">
-      <div class="ydbks-wear-band-text">
-         <div class="mdl-typography--display-2 mdl-typography--font-thin">The best of Google built in</div>
-         <p class="mdl-typography--headline mdl-typography--font-thin">
-            ydbks works perfectly with your favourite apps like Google Maps,
-            Calendar and YouTube.
-         </p>
-         <p>
-            <a class="mdl-typography--font-regular mdl-typography--text-uppercase ydbks-alt-link" href="">
-            See what's new in the Play Store&nbsp;<i class="material-icons">chevron_right</i>
-            </a>
-         </p>
+<div class="ydbks-data">
+  <div class="mdl-grid">
+    <div class="mdl-cell mdl-cell--4-col">
+     <i class="material-icons">store_mall_directory</i>
+     <h4>46</h4>
+     <h4>Tahun Pengabdian</h4>
+     <p>
+        Bengkulu, 8 Agustus 1978 berdiri Badan Koordinasi Kegiatan
+        Sosial (BKKS) Propinsi Bengkulu, yang dipimpin oleh Ibu Hj Hindun Maurice.
+        Pada tanggal 28 Februari 1986 berganti nama menjadi
+        ” Yayasan Dharma Bhakti Kesejahteraan Sosial ”
+        (YDBKS) Propinsi Bengkulu.
+     </p>
+    </div>
+    <div class="mdl-cell mdl-cell--4-col">
+      <i class="material-icons">local_atm</i>
+      <h4>100</h4>
+      <h4>Donasi</h4>
+      <p>
+        Sejak berdiri pada tahun 1996, GNOTA telah berhasil mendistribusikan 2,3 juta 
+        paket bantuan pendidikan dan donasi finansial untuk membantu anak-anak dari keluarga 
+        kurang mampu agar mereka dapat melanjutkan pendidikan.
+      </p>
+    </div>
+    <div class="mdl-cell mdl-cell--4-col">
+      <i class="material-icons">sentiment_very_satisfied</i>
+      <h4>46</h4>
+      <h4>Anak Panti</h4>
+      <p>
+      Selama 20 tahun pengabdian kami, GNOTA telah mampu memayungi 196.858 
+      anak asuh yang tersebar di seluruh provinsi Indonesia, berkat bantuan para 
+      orang tua asuh, rekanan, dan kepengurusan secara profesional.
+      </p>
+    </div>
+  </div>
+</div>
+<div class="mdl-typography--text-center">
+   <div class="mdl-grid">
+      <div class="ydbks-kami-adalah-foto mdl-cell mdl-cell--6-col"  style="background: url('<?php echo base_url() ?>assets/material-design-lite/images/ydbks-foto-bersama.jpg') center 30% no-repeat; background-size: cover;"></div>
+      <div class="mdl-cell mdl-cell--6-col">
+        <div class="ydbks-kegiatan">
+        <h3>Kegiatan Kami?</h3>
+            Mengadakan pelatihan-pelatihan  atau kursus-kursus yang berbasis ekonomi produktif,  
+            misalnya kursus jahit dan kecantikan untuk  penyandang disabilitas yang berada di 
+            panti dan anak disabilitas yang putus sekolah.
+            <div class="kegiatan-card-event mdl-card mdl-shadow--2dp">
+                <div class="mdl-card__title mdl-card--expand">
+                  <h4>
+                      Membuat Bunga Akrilik Yang<br>
+                      26 Desember 2018<br>
+                      7-11pm
+                  </h4>
+                </div>
+                <div class="mdl-card__actions mdl-card--border">
+                  <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+                  Selengkapnya
+                  <i class="material-icons">chevron_right</i>
+                  </a>
+                  <div class="mdl-layout-spacer"></div>
+                  <i class="material-icons">event</i>
+                </div>
+            </div>
+        </div>
       </div>
    </div>
 </div>
@@ -55,8 +105,8 @@
    </div>
    <div class="ydbks-customized-section-image"></div>
 </div>
-<div class="ydbks-more-section">
-   <div class="ydbks-section-title mdl-typography--display-1-color-contrast">Artikel</div>
+<div class="ydbks-artikel-kami">
+   <h3>Artikel Kami</h3>
    <div class="ydbks-card-container mdl-grid">
       <div class="mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp">
          <div class="mdl-card__media">
