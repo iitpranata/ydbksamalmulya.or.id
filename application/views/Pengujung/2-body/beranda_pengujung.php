@@ -64,30 +64,13 @@
 </div>
 <div class="mdl-typography--text-center">
    <div class="mdl-grid">
-      <div class="ydbks-kami-adalah-foto mdl-cell mdl-cell--6-col"  style="background: url('<?php echo base_url() ?>assets/material-design-lite/images/ydbks-foto-bersama.jpg') center 30% no-repeat; background-size: cover;"></div>
+      <div class="ydbks-kami-adalah-foto mdl-cell mdl-cell--6-col"  style="background: url('<?php echo base_url() ?>assets/material-design-lite/images/ydbks-foto-kegiatan.jpg') center 30% no-repeat; background-size: cover;"></div>
       <div class="mdl-cell mdl-cell--6-col">
         <div class="ydbks-kegiatan">
         <h3>Kegiatan Kami?</h3>
             Mengadakan pelatihan-pelatihan  atau kursus-kursus yang berbasis ekonomi produktif,  
             misalnya kursus jahit dan kecantikan untuk  penyandang disabilitas yang berada di 
             panti dan anak disabilitas yang putus sekolah.
-            <div class="kegiatan-card-event mdl-card mdl-shadow--2dp">
-                <div class="mdl-card__title mdl-card--expand">
-                  <h4>
-                      Membuat Bunga Akrilik Yang<br>
-                      26 Desember 2018<br>
-                      7-11pm
-                  </h4>
-                </div>
-                <div class="mdl-card__actions mdl-card--border">
-                  <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
-                  Selengkapnya
-                  <i class="material-icons">chevron_right</i>
-                  </a>
-                  <div class="mdl-layout-spacer"></div>
-                  <i class="material-icons">event</i>
-                </div>
-            </div>
         </div>
       </div>
    </div>

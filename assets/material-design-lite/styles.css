@@ -184,14 +184,6 @@ a img{
   background-color: #f3f3f3;
 }
 
-.ydbks-halaman .mdl-cell--9-col {
-  margin-right: 0px;
-}
-
-.ydbks-halaman .mdl-cell--3-col {
-  margin-left: 0px;
-}
-
 .ydbks-halaman .mdl-cell--3-col .mdl-card {
   padding: 8px 16px 8px 16px;
 }
@@ -438,9 +430,6 @@ a img{
   margin-bottom: 0px;
 }
 
-.ydbks-card-container {
-}
-
   .ydbks-card-container .mdl-card__media {
     overflow: hidden;
     background: transparent;
@@ -580,6 +569,7 @@ a img{
 /* Kegiatan */
 
 .kegiatan-card-event.mdl-card {
+  margin: auto;
   width: 256px;
   height: 256px;
   background: #3E4EB8;
@@ -664,6 +654,26 @@ a img{
 .ydbks-data  .mdl-cell--4-col {
   padding-right: 10px;
   padding-left: 10px;
+}
+
+.ydbks-judul-donasi {
+  margin-top: 50px;
+}
+
+.mdl-typography--text-center h6 {
+  margin-top: 0px;
+}
+
+.ydbks-tentang .mdl-list {
+  padding-left: 50px;
+}
+
+.ydbks-tentang .mdl-cell--4-col {
+  max-height: 324px;
+}
+
+.ydbks-tentang h3 {
+  margin-left: 40px;
 }
 
 /**** Mobile layout ****/
@@ -760,6 +770,10 @@ a img{
     width: 256px;
     height: 256px;
     background: #2196F3;
+  }
+
+  .ydbks-judul-donasi {
+    margin-top: 30px;
   }
 
   .ydbks-slogan {

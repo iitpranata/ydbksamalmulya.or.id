@@ -9,7 +9,7 @@
       </div>
       <div class="mdl-mega-footer--right-section">
          <a class="mdl-typography--font-light" href="#top">
-         Back to Top
+            Kembali ke Atas
          <i class="material-icons">expand_less</i>
          </a>
       </div>
