@@ -676,6 +676,30 @@ a img{
   margin-left: 40px;
 }
 
+.ydbks-tentang h3 {
+  margin-left: 40px;
+  margin-bottom: 0px;
+}
+
+.ydbks-tentang .mdl-card__supporting-text {
+  margin-left: 25px;
+}
+
+.ydbks-card-image.mdl-card {
+  width: 256px;
+  height: 256px;
+}
+.ydbks-card-image > .mdl-card__actions {
+  height: 52px;
+  padding: 16px;
+  background: rgba(0, 0, 0, 0.2);
+}
+.ydbks-card-image__filename {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+}
+
 /**** Mobile layout ****/
 @media (max-width: 900px) {
   .ydbks-navigation-container {

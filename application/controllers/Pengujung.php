@@ -85,7 +85,7 @@ class Pengujung extends CI_Controller {
 	public function tentang_program_kerja()
 	{
 		$head = array(
-			'title' => 'Tentang | Visi - Yayasan Dharma Bhakti Sosial Provinsi Bengkulu | ydbks.or.id',
+			'title' => 'Tentang | Program Kerja - Yayasan Dharma Bhakti Sosial Provinsi Bengkulu | ydbks.or.id',
 			'meta' => 'pengujung/1-head/meta_pengujung',
 			'css_mdl' => 'pengujung/1-head/css_mdl_pengujung',
 			'css_timeline' => 'pengujung/1-head/css_timeline',
@@ -111,7 +111,7 @@ class Pengujung extends CI_Controller {
 	public function tentang_pengurus()
 	{
 		$head = array(
-			'title' => 'Tentang | Visi - Yayasan Dharma Bhakti Sosial Provinsi Bengkulu | ydbks.or.id',
+			'title' => 'Tentang | Pengurus - Yayasan Dharma Bhakti Sosial Provinsi Bengkulu | ydbks.or.id',
 			'meta' => 'pengujung/1-head/meta_pengujung',
 			'css_mdl' => 'pengujung/1-head/css_mdl_pengujung',
 			'css_timeline' => 'pengujung/1-head/css_timeline',
@@ -137,10 +137,11 @@ class Pengujung extends CI_Controller {
 	public function tentang_anak()
 	{
 		$head = array(
-			'title' => 'Tentang | Visi - Yayasan Dharma Bhakti Sosial Provinsi Bengkulu | ydbks.or.id',
+			'title' => 'Tentang | Anak Panti - Yayasan Dharma Bhakti Sosial Provinsi Bengkulu | ydbks.or.id',
 			'meta' => 'pengujung/1-head/meta_pengujung',
 			'css_mdl' => 'pengujung/1-head/css_mdl_pengujung',
 			'css_timeline' => 'pengujung/1-head/css_timeline',
+			'css_datatables' => 'pengujung/1-head/css_datatables_pengujung',
 		);
 
 		$body = array(
@@ -152,7 +153,9 @@ class Pengujung extends CI_Controller {
 		);
 
 		$javascript = array(
+			'jquery' => 'pengujung/3-javascript/jquery',
 			'mdl' => 'pengujung/3-javascript/mdl',
+			'datatables' => 'pengujung/3-javascript/datatables',
 		);
 
 		$this->load->view('pengujung/1-head', $head);

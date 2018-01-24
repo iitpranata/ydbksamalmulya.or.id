@@ -38,7 +38,7 @@
                <a class="mdl-navigation__link" href="<?php echo base_url() ?>index.php/pengujung/tentang_anak">
                <span class="mdl-list__item-primary-content">
                <i class="material-icons mdl-list__item-icon">navigate_next</i>
-               Anak
+               Anak Panti
                </span>
                </a>
             </li>
