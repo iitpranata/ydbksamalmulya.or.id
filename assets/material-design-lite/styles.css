@@ -656,6 +656,30 @@ a img{
   padding-left: 10px;
 }
 
+.ydbks-program-kerja { 
+  height: auto;
+  text-align: center;
+}
+
+.ydbks-program-kerja .material-icons {
+  font-size: 80px;
+}
+
+.ydbks-program-kerja h4 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.ydbks-program-kerja .mdl-grid {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.ydbks-program-kerja  .mdl-cell--4-col {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
 .ydbks-judul-donasi {
   margin-top: 50px;
 }
@@ -798,6 +822,10 @@ a img{
 
   .ydbks-judul-donasi {
     margin-top: 30px;
+  }
+
+  .ydbks-tentang .mdl-card__supporting-text {
+    margin-left: 0px;
   }
 
   .ydbks-slogan {
